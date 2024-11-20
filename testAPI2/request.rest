@@ -1,0 +1,15 @@
+GET http://localhost:5000/menu
+
+
+###
+POST http://localhost:5000/pesanan
+Content-Type: application/json
+
+{
+  "nama_pesanan" : "ayam goreng",
+  "quantity": 5,
+  "nama_pelanggan": "ilman",
+  "no_meja": 5
+}
+
+
